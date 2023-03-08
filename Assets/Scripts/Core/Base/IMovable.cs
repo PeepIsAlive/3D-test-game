@@ -1,6 +1,6 @@
 namespace Core
 {
-    public interface IUnitable
+    public interface IMovable
     {
         public void Move();
     }

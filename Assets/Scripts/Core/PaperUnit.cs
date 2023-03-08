@@ -4,7 +4,7 @@ using Types;
 
 namespace Core
 {
-    public sealed class PaperUnit : MonoBehaviour, IUnitable
+    public sealed class PaperUnit : MonoBehaviour, IMovable
     {
 #if UNITY_EDITOR
         [ReadOnly]

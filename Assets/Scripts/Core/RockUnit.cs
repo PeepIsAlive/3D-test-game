@@ -4,7 +4,7 @@ using Types;
 
 namespace Core
 {
-    public sealed class RockUnit : MonoBehaviour, IUnitable
+    public sealed class RockUnit : MonoBehaviour, IMovable
     {
 #if UNITY_EDITOR
         [ReadOnly]
